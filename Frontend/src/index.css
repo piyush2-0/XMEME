@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+.head{
+  background-color: #563d7c;
+}
+
+.hd {
+  text-align:center;
+  font-size: 70px;
+  font-weight: bold;
+  font-family: serif;
+   color:white;
+}
+
+
+h1 {
+  text-align:center;
+  font-size: 70px;
+  font-weight: bold;
+  font-family: serif;
+   color: black;
+   text-shadow: 2px 2px;
+}
+
+h2{
+  text-align:center;
+  font-size:40px;
+  font-weight:bold;
+  color: white;
+  text-shadow: 1px 1px;
+}
+
+
+img{
+  width:100%;
+  max-width:700px;
+  max-height:600px;
+}
+
+.meme{
+  text-align:center;
+  box-shadow: 5px 10px;
+}
+
+
+.container {
+  max-width: 1400px;
+  margin: 30px auto;
+  overflow: auto;
+  min-height: 300px;
+  border: 1px solid steelblue;
+  padding: 30px;
+  border-radius: 5px;
+  /* box-shadow: 5px 10px; */
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  text-align:center;
+}
+
+.btn {
+  display: inline-block;
+  background: #000;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  margin: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 15px;
+  font-family: inherit;
+  text-align: center;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+}
+
+.btn:focus {
+  outline: none;
+}
+
+.btn:active {
+  transform: scale(0.98);
+}
+
+.btn-block {
+  display: block;
+  width: 100%;
+} 
+
+.add-form {
+  margin-bottom: 40px;
+}
+
+.form-control {
+  margin: 20px 0;
+}
+
+.form-control label {
+  display: block;
+}
+
+.form-control input {
+  width: 100%;
+  height: 40px;
+  margin: 5px;
+  padding: 3px 7px;
+  font-size: 17px;
+}
+
+.form-control-check {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.form-control-check label {
+  flex: 1;
+}
+
+.form-control-check input {
+  flex: 2;
+  height: 20px;
+}
+
+footer {
+  margin-top: 30px;
+  text-align: center;
+} 
+
+.highlight{
+  font-size: 40px;
+  font-weight: bold;
+  color: #7952b3;
+  text-shadow: 1px 2px;
+}
+
